@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.login{
+    width: 250px;
+    height:320px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.login .cabeza{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.datos{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 15px;
+}
+input[type="text"] , input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(18, 223, 237);
+    border: none;
+}
